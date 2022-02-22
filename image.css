@@ -1,0 +1,36 @@
+.div1 {
+    background-image: url(2.jpg);
+    height: 900px;
+    width: 1600px;
+}
+
+.logo {
+    color: darkgoldenrod;
+    text-align: center;
+    font-size: xx-larger;
+    text-shadow: 2.5px 2.5px blanchedalmond;
+    padding-top: 40px;
+
+}
+
+.menu {
+    border: 2px solid black;
+    width: 20%;
+    height: 800px;
+    background-color: darkkhaki;
+    margin-left: 0%;
+}
+
+ul {
+
+}
+
+li {
+    height: 70px;
+    font-size: x-large;
+
+}
+
+a {
+    text-decoration: none;
+}
