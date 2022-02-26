@@ -17,14 +17,10 @@
     border: 2px solid black;
     width: 20%;
     height: 800px;
-    background-color: darkkhaki;
+    text-decoration-color: firebrick;
+    background-color: gold;
     margin-left: 0.5%;
 }
-
-ul {
-
-}
-
 li {
     height: 70px;
     font-size: x-large;
