@@ -4,7 +4,6 @@
     text-align: center;
     font-size: xx-larger;
     padding-top: 40px;
-
 }
 
 @import url(https://fonts.googleapis.com/css?family=lato:400,700,300);
@@ -31,7 +30,7 @@ body {
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 70px;
+    padding: 14px 80px;
     text-decoration: none;
     font-size: 17px;
 }
