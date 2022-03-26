@@ -2,7 +2,7 @@
 .logo {
     color: whitesmoke;
     text-align: center;
-    font-size: xx-larger;
+    /*font-size: xx-larger;*/
     padding-top: 40px;
 }
 
@@ -62,7 +62,7 @@ li {
 
 .dropdown_menu ul li {
     background: crimson;
-    padding: 10px 30px
+    padding: 10px 30px;
     position: relative;
 }
 
@@ -87,4 +87,8 @@ a {
 
 .dropdown_menu:hover > ul {
     display: block;
+}
+
+.td {
+    background-color: blueviolet;
 }
