@@ -29,7 +29,6 @@ body {
 
 .topnav {
     background-color: rebeccapurple;
-    overflow: ;
 }
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -64,4 +63,16 @@ li {
 
 .td {
     background-color: blueviolet;
+}
+
+.Dropdown-item {
+    background-color: snow;
+    color: red;
+    border: none;
+}
+
+.dropdownMenu3 {
+    border: none;
+    background-color: darkblue;
+    color: white;
 }
