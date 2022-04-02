@@ -29,7 +29,7 @@ body {
 
 .topnav {
     background-color: rebeccapurple;
-    overflow: show;
+    overflow: ;
 }
 /* Style the links inside the navigation bar */
 .topnav a {
