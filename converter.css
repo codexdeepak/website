@@ -23,7 +23,7 @@ body {
 
 .topnav {
     background-color: #333;
-    overflow: hidden;
+    overflow: show;
 }
 
 /* Style the links inside the navigation bar */

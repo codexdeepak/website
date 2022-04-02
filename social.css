@@ -1,11 +1,19 @@
-.div4 {
-    background-image: url(5.jpg);
-    height: 800px;
-    width: 100%;
+@import url(https://fonts.googleapis.com/css?family=lato:400,700,300);
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "lato", sans-serif;
+    background: -webkit-linear-gradient(to right, #514A9D, #04AA6D);
+    background: linear-gradient(to right, #514A9D, #04AA6D);
+    display: flex;
+    align-items: centre;
+    justify-content: centre;
+    min-height: 100vh;
 }
 
 .logo {
-    color: darkgoldenrod;
+    color: black;
     text-align: center;
     font-size: xx-larger;
     text-shadow: 2.5px 2.5px blanchedalmond;
@@ -14,16 +22,16 @@
 }
 
 .topnav {
-    background-color: #333;
-    overflow: hidden;
+    background-color: black;
+    overflow: show;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: blanchedalmond;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 75px;
     text-decoration: none;
     font-size: 17px;
 }
@@ -37,12 +45,7 @@
 /* Add a color to the active/current link */
 .topnav a.active {
     background-color: #04AA6D;
-    color: white;
-}
-
-
-ul {
-
+    color: whitesmoke;
 }
 
 li {
@@ -53,4 +56,14 @@ li {
 
 a {
     text-decoration: none;
+}
+
+.file {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 2.2rem;
 }

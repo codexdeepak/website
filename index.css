@@ -8,9 +8,10 @@
 
 .deepak {
     background-image: url(1.jpg);
-    height: 900px;
-    width: 1600px;
+    height: 800px;
+    width: 100%;
 }
+
 
 /*@import url(https://fonts.googleapis.com/css?family=lato:400,700,300);
 body {
@@ -28,7 +29,7 @@ body {
 
 .topnav {
     background-color: rebeccapurple;
-    overflow: hidden;
+    overflow: show;
 }
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -60,34 +61,6 @@ li {
 
 }
 
-.dropdown_menu ul li {
-    background: crimson;
-    padding: 10px 30px;
-    position: relative;
-}
-
-a {
-    text-decoration: none;
-}
-
-.dropdown_menu ul li a {
-    color: black;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-
-.dropdown_menu {
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 100%;
-    background-color: black;
-}
-
-.dropdown_menu:hover > ul {
-    display: block;
-}
 
 .td {
     background-color: blueviolet;
