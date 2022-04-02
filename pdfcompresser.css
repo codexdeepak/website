@@ -35,7 +35,7 @@ body {
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: whitesmoke;
     text-align: center;
     padding: 14px 80px;
     text-decoration: none;
@@ -45,13 +45,13 @@ body {
 /* Change the color of links on hover */
 .topnav a:hover {
     background-color: #04AA6D;
-    color: white;
+    color: whitesmoke;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
     background-color: #04AA6D;
-    color: white;
+    color: whitesmoke;
 }
 
 li {
