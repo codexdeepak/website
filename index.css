@@ -3,11 +3,11 @@
     color: whitesmoke;
     text-align: center;
     /*font-size: xx-larger;*/
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 .deepak {
-    background-image: url(1.jpg);
+    background-image: url(1233.gif);
     height: 800px;
     width: 100%;
 }
@@ -36,7 +36,7 @@ body {
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 80px;
+    padding: 14px 75.5px;
     text-decoration: none;
     font-size: 15px;
 }
@@ -54,7 +54,7 @@ body {
 }
 
 li {
-    height: 70px;
+    height: 80px;
     font-size: x-large;
     padding: 10px 30px;
     position: relative;
