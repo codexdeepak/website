@@ -1,5 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=lato:400,700,300);
 
+.div4 {
+    background-image: url(1.jpg);
+    height: 900px;
+    width: 101%;
+}
+
+
 body {
     margin: 0;
     padding: 0;
@@ -17,7 +24,7 @@ body {
     text-align: center;
     font-size: xx-larger;
     text-shadow: 2.5px 2.5px blanchedalmond;
-    padding-top: 40px;
+    padding-top: 30px;
 
 }
 
@@ -30,9 +37,9 @@ body {
 .topnav a {
     float: left;
     color: blanchedalmond;
-    text-align: center;
-    padding: 14px 75px;
-    text-decoration: none;
+    text-align: left;
+    padding: 20px 50px;
+    text-decoration: lightgreen;
     font-size: 17px;
 }
 
@@ -50,7 +57,7 @@ body {
 
 li {
     height: 70px;
-    font-size: x-large;
+    font-size: large;
 
 }
 

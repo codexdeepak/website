@@ -2,18 +2,18 @@
 .logo {
     color: whitesmoke;
     text-align: center;
-    /*font-size: xx-larger;*/
-    padding-top: 20px;
+    font-size: xx-larger;
+    padding-top: 15px;
 }
 
 .deepak {
-    background-image: url(1233.gif);
-    height: 800px;
+    background-image: url(1.jpg);
+    height: 700px;
     width: 100%;
 }
 
 
-/*@import url(https://fonts.googleapis.com/css?family=lato:400,700,300);
+@import url(https://fonts.googleapis.com/css?family=lato:400,700,300);
 body {
     margin: 0;
     padding: 0;
@@ -24,11 +24,11 @@ body {
     align-items: centre;
     justify-content: centre;
     min-height: 100vh;
-}*/
+}
 
 
 .topnav {
-    background-color: rebeccapurple;
+    background-color: lightseagreen;
 }
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -38,6 +38,8 @@ body {
     padding: 14px 75.5px;
     text-decoration: none;
     font-size: 15px;
+    font-style: italic;
+    background-clip: border-box;
 }
 
 /* Change the color of links on hover */
