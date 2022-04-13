@@ -1,5 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=lato:400,700,300);
 
+.div10 {
+    background-image: url(1.jpg);
+    height: 800px;
+    width: 100%;
+}
+
+
 body {
     margin: 0;
     padding: 0;
@@ -17,22 +24,25 @@ body {
     text-align: center;
     font-size: xx-larger;
     text-shadow: 2.5px 2.5px blanchedalmond;
-    padding-top: 40px;
+    padding-top: 30px;
+    background-color: #514A9D;
+    border-bottom-style: double;
+    mso-linked-frame: auto;
 
 }
 
 .topnav {
     background-color: black;
-    overflow: hidden;
+    overflow: show;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
     color: blanchedalmond;
-    text-align: center;
-    padding: 14px 75px;
-    text-decoration: none;
+    text-align: left;
+    padding: 20px 50px;
+    text-decoration: lightgreen;
     font-size: 17px;
 }
 
@@ -50,10 +60,20 @@ body {
 
 li {
     height: 70px;
-    font-size: x-large;
+    font-size: large;
 
 }
 
 a {
     text-decoration: none;
+}
+
+.file {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 2.2rem;
 }
