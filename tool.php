@@ -1,9 +1,11 @@
 <?php
 if (isset($_POST['submit'])) {
     $info = getimagesize($_FILES['image']['tmp_name']);
+    $img = '';
+    print_r($info);
     if (isset($info['mime'])) {
         if ($info['mime'] == "image/jpeg") {
-            $img = imagecreatefromjpg($_FILES['image']['tmp_name']);
+            $img = imagecreatefromjpeg($_FILES['image']['tmp_name']);
         } elseif ($info['mime'] == "image/png") {
             $img = imagecreatefrompng($_FILES['image']['tmp_name']);
         } else {
@@ -13,10 +15,16 @@ if (isset($_POST['submit'])) {
             $output_image = time() . '.jpg';
             imagejpeg($img, $output_image, 40);
             echo "Processing done";
+           // print_r($output_image);
+             echo "<a href=".$output_image." download> click here to download</a>";
+           //  echo "<img src=".$output_image.">";
         }
-    } else {
-        echo "Only select jpg or png image";
     }
+
+}
+    else
+    {
+        echo "Only select jpg or png image";
 }
 ?>
 <form method="post" enctype="multipart/form-data">
