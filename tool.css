@@ -1,0 +1,49 @@
+.logo {
+    color: whitesmoke;
+    text-align: center;
+    /*font-size: xx-larger;*/
+    padding-top: 40px;
+}
+.deepak1 {
+    background-image: url(new.jpg);
+    height: 800px;
+    width: 100%;
+}
+
+.topnav {
+    background-color: lightseagreen;
+}
+.topnav a {
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    padding: 12px 50px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.topnav a:hover {
+    background-color: #04AA6D;
+    color: whitesmoke;
+}
+.topnav a.active {
+    background-color: #04AA6D;
+    color: whitesmoke;
+}
+li {
+    height: 70px;
+    font-size: x-large;
+    padding: 10px 30px;
+    position: relative;
+
+}
+.td {
+    background-color: blueviolet;
+}
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-position: center;
+    position: center;
+}
