@@ -3,7 +3,7 @@ if (isset($_POST['submit'])) {
     $info = getimagesize($_FILES['image']['tmp_name']);
     if (isset($info['mime'])) {
         if ($info['mime'] == "image/jpeg") {
-            $img = imagecreatefromjpeg($_FILES['image']['tmp_name']);
+            $img = imagecreatefromjpg($_FILES['image']['tmp_name']);
         } elseif ($info['mime'] == "image/png") {
             $img = imagecreatefrompng($_FILES['image']['tmp_name']);
         } else {

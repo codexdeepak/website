@@ -2,10 +2,7 @@
 <project version="4">
   <component name="PhpIncludePathManager">
     <include_path>
-      <path value="$PROJECT_DIR$/../../php" />
-      <path value="$PROJECT_DIR$/../../phpMyAdmin" />
-      <path value="$PROJECT_DIR$/../../php" />
-      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/.." />
     </include_path>
   </component>
   <component name="PhpInterpreters">
@@ -15,6 +12,7 @@
       </interpreter>
     </interpreters>
   </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />
   <component name="PhpRuntimeConfiguration">
     <extensions>
       <extension name="FFI" enabled="true" />
