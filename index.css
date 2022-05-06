@@ -7,7 +7,8 @@
 }
 
 .deepak {
-    background-image: url(1.jpg);
+    background-image: url(new.jpg);
+    background-position: center;
     height: 700px;
     width: 100%;
 }
@@ -35,7 +36,7 @@ body {
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 75.5px;
+    padding: 14px 70px;
     text-decoration: none;
     font-size: 15px;
     font-style: italic;
@@ -75,6 +76,7 @@ li {
 
 .dropdownMenu3 {
     border: none;
-    background-color: darkblue;
+    background-color: lightseagreen;
     color: white;
+
 }
