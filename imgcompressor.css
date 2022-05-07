@@ -1,68 +1,68 @@
 
-.logo {
-    color: whitesmoke;
-    text-align: center;
-    /*font-size: xx-larger;*/
-    padding-top: 40px;
-}
+/*.logo {*/
+/*    color: whitesmoke;*/
+/*    text-align: center;*/
+/*    !*font-size: xx-larger;*!*/
+/*    padding-top: 40px;*/
+/*}*/
 
-/*.deepak96 {
-    background-image: url(1.jpg);
-    height: 800px;
-    width: 100%;
-}*/
-
-
-@import url(https://fonts.googleapis.com/css?family=lato:400,700,300);
-body {
-    margin: 0;
-    padding: 0;
-    font-family: "lato", sans-serif;
-    background: -webkit-linear-gradient(to right, #514A9D, #04AA6D);
-    background: linear-gradient(to right, #514A9D, #04AA6D);
-    display: flex;
-    align-items: centre;
-    justify-content: centre;
-    min-height: 100vh;
-}
+/*!*.deepak96 {*/
+/*    background-image: url(1.jpg);*/
+/*    height: 800px;*/
+/*    width: 100%;*/
+/*}*!*/
 
 
-.topnav {
-    background-color: lightseagreen;
-    overflow: ;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-    float: left;
-    color: whitesmoke;
-    text-align: center;
-    padding: 14px 80px;
-    text-decoration: none;
-    font-size: 15px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-    background-color: #04AA6D;
-    color: whitesmoke;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-    background-color: #04AA6D;
-    color: whitesmoke;
-}
-
-li {
-    height: 70px;
-    font-size: x-large;
-    padding: 10px 30px;
-    position: relative;
-
-}
+/*@import url(https://fonts.googleapis.com/css?family=lato:400,700,300);*/
+/*body {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    font-family: "lato", sans-serif;*/
+/*    background: -webkit-linear-gradient(to right, #514A9D, #04AA6D);*/
+/*    background: linear-gradient(to right, #514A9D, #04AA6D);*/
+/*    display: flex;*/
+/*    align-items: centre;*/
+/*    justify-content: centre;*/
+/*    min-height: 100vh;*/
+/*}*/
 
 
-.td {
-    background-color: blueviolet;
-}
+/*.topnav {*/
+/*    background-color: lightseagreen;*/
+/*    overflow: ;*/
+/*}*/
+
+/*!* Style the links inside the navigation bar *!*/
+/*.topnav a {*/
+/*    float: left;*/
+/*    color: whitesmoke;*/
+/*    text-align: center;*/
+/*    padding: 14px 80px;*/
+/*    text-decoration: none;*/
+/*    font-size: 15px;*/
+/*}*/
+
+/*!* Change the color of links on hover *!*/
+/*.topnav a:hover {*/
+/*    background-color: #04AA6D;*/
+/*    color: whitesmoke;*/
+/*}*/
+
+/*!* Add a color to the active/current link *!*/
+/*.topnav a.active {*/
+/*    background-color: #04AA6D;*/
+/*    color: whitesmoke;*/
+/*}*/
+
+/*li {*/
+/*    height: 70px;*/
+/*    font-size: x-large;*/
+/*    padding: 10px 30px;*/
+/*    position: relative;*/
+
+/*}*/
+
+
+/*.td {*/
+/*    background-color: blueviolet;*/
+/*}*/
